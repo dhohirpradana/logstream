@@ -1,0 +1,11 @@
+services:
+  logstream:
+    build: .
+    container_name: logstream
+    ports:
+      - "8080:8080"
+    volumes:
+      - /var/log:/var/log:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./logs.db:/app/logs.db
+    restart: unless-stopped
