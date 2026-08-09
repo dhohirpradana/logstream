@@ -4,7 +4,7 @@ go 1.26
 
 require (
 	github.com/fsnotify/fsnotify v1.10.1
-	github.com/go-chi/chi/v5 v5.0.12
+	github.com/go-chi/chi/v5 v5.2.4
 	github.com/gorilla/websocket v1.5.1
 	github.com/moby/moby/client v0.5.1
 	github.com/spf13/cobra v1.8.0
