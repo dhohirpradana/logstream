@@ -5,7 +5,7 @@ go 1.26
 require (
 	github.com/fsnotify/fsnotify v1.10.1
 	github.com/go-chi/chi/v5 v5.0.12
-	github.com/gorilla/websocket v1.5.1
+	github.com/gorilla/websocket v1.5.3
 	github.com/moby/moby/client v0.5.1
 	github.com/spf13/cobra v1.8.0
 	modernc.org/sqlite v1.56.0
@@ -37,7 +37,6 @@ require (
 	go.opentelemetry.io/otel v1.35.0 // indirect
 	go.opentelemetry.io/otel/metric v1.35.0 // indirect
 	go.opentelemetry.io/otel/trace v1.35.0 // indirect
-	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/sys v0.47.0 // indirect
 	modernc.org/libc v1.74.4 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
